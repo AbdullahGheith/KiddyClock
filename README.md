@@ -37,5 +37,3 @@ setTimeRange(6, 45, 7, 0, "yellow", "clothes.png");
   - Tryk **Commit changes** for at gemme.
 
 ---
-
-Har du brug for hjælp, så skriv endelig!
