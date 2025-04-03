@@ -1,0 +1,30 @@
+body {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock-container {
+  display: flex; /* Use flexbox for horizontal layout */
+  align-items: center; /* Center items vertically */
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#clock {
+  /* The clock canvas maintains its dimensions from JS */
+}
+
+#image-container {
+  height: 400px; /* Same height as clock (radius*2) */
+  width: 400px; /* Same width as the clock for square image */
+  margin-left: 20px; /* Space between clock and image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
