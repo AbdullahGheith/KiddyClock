@@ -1,21 +1,21 @@
 # KiddyClock
 
-Farvet ur afhængigt af hvad der er planlagt. perfekt til børn der ikke har lært klokken endnu.
+Farvet ur afhængigt af, hvad der er planlagt – perfekt til børn, der endnu ikke har lært klokken.
 
-Preview: https://abdullahgheith.github.io/KiddyClock/
+**Preview:** [https://abdullahgheith.github.io/KiddyClock/](https://abdullahgheith.github.io/KiddyClock/)
 
-Hvis du vil ændre tiderne så de passer til dit program, er der flere måder at gøre det på:
+---
 
-1) manuel metode
-download alle filerne, åbn script.js og ændre tiderne i afsnittet hvor der står en masse setTimeRange. feks:
+## Sådan tilpasser du tiderne
 
-setTimeRange(6, 45, 7, 0, "yellow", "clothes.png"); //mellem 6.45 og 7.00 skal afsnittet være gult og vise clothes.png billedet.
+Der er flere måder at ændre tiderne, så de passer til dit eget program:
 
-åbn index.html i chrome
+### 1. Manuel metode
 
-2) Igennem github
-du skal have en GitHub bruger. bagefter trykker du på fork branch.
-gå til settings og tryk på pages i venstre side.
-ved source, vælg "deploy from a branch" og vælg main nedenunder
-så går der et par minutter, så får du et link hvor din side er hostet.
-nu kan eu ændre i filerne selv. gå til script.js, tryk rediger og ændre dine tider som beskrevet i metode 1, og gem.
+- Download alle filerne.
+- Åbn `script.js` og find sektionen med `setTimeRange`.
+- Her kan du ændre tidsintervaller, farver og billeder. F.eks.:
+
+```javascript
+setTimeRange(6, 45, 7, 0, "yellow", "clothes.png");
+// Mellem 6.45 og 7.00 skal uret være gult og vise clothes.png
